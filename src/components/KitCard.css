@@ -1,0 +1,95 @@
+.kit-card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: all var(--transition-slow);
+  border: 1px solid var(--gray-100);
+}
+
+.kit-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-xl);
+  border-color: var(--kit-color);
+}
+
+.kit-card-image {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.kit-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+.kit-card:hover .kit-card-image img {
+  transform: scale(1.05);
+}
+
+.kit-card-icon {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: var(--radius);
+  font-size: 1.25rem;
+  box-shadow: var(--shadow-md);
+}
+
+.kit-card-content {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.kit-card-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 0.25rem;
+}
+
+.kit-card-tagline {
+  font-size: 0.875rem;
+  color: var(--gray-500);
+  margin-bottom: 1rem;
+  flex: 1;
+}
+
+.kit-card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kit-card-price {
+  font-weight: 700;
+  color: var(--kit-color);
+  font-size: 1rem;
+}
+
+.kit-card-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--primary);
+  transition: gap var(--transition);
+}
+
+.kit-card:hover .kit-card-cta {
+  gap: 0.5rem;
+}

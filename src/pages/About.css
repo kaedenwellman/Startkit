@@ -1,0 +1,306 @@
+/* About Hero */
+.about-hero {
+  text-align: center;
+  padding: 5rem 0 3rem;
+  background: linear-gradient(135deg, var(--primary-50) 0%, #f0fdf4 100%);
+}
+
+.about-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--gray-900);
+  margin-bottom: 1rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-hero p {
+  font-size: 1.125rem;
+  color: var(--gray-600);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Stats */
+.about-stats {
+  padding: 3rem 0;
+  background: white;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 2rem;
+  background: var(--gray-50);
+  border-radius: var(--radius-xl);
+}
+
+.stat-icon {
+  color: var(--primary);
+  margin-bottom: 0.75rem;
+  display: flex;
+  justify-content: center;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--gray-900);
+}
+
+.stat-label {
+  font-size: 0.9375rem;
+  color: var(--gray-500);
+  font-weight: 500;
+}
+
+/* Mission */
+.about-mission {
+  padding: 4rem 0;
+}
+
+.mission-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.mission-content h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--gray-900);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.mission-text {
+  font-size: 1.0625rem;
+  color: var(--gray-600);
+  line-height: 1.8;
+  margin-bottom: 1.25rem;
+}
+
+/* How It Works (About page version) */
+.about-how {
+  padding: 4rem 0;
+  background: var(--gray-50);
+}
+
+.about-how h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--gray-900);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.how-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.how-step {
+  padding: 2rem 1.5rem;
+  background: white;
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--gray-200);
+}
+
+.how-step-number {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary);
+  color: white;
+  font-weight: 800;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+}
+
+.how-step h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 0.5rem;
+}
+
+.how-step p {
+  font-size: 0.875rem;
+  color: var(--gray-500);
+  line-height: 1.6;
+}
+
+/* Values */
+.about-values {
+  padding: 4rem 0;
+}
+
+.about-values h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--gray-900);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.value-card {
+  padding: 2rem;
+  background: white;
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--gray-200);
+  transition: all var(--transition-slow);
+}
+
+.value-card:hover {
+  border-color: var(--primary-light);
+  box-shadow: var(--shadow-md);
+}
+
+.value-icon {
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.value-card h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 0.5rem;
+}
+
+.value-card p {
+  font-size: 0.9375rem;
+  color: var(--gray-500);
+  line-height: 1.6;
+}
+
+/* Why */
+.about-why {
+  padding: 4rem 0;
+  background: var(--gray-50);
+}
+
+.about-why h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--gray-900);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.why-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.why-content > p {
+  font-size: 1.0625rem;
+  color: var(--gray-600);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.why-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.why-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.9375rem;
+  color: var(--gray-700);
+  line-height: 1.5;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.why-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  width: 6px;
+  height: 6px;
+  background: var(--primary);
+  border-radius: 50%;
+}
+
+/* CTA */
+.about-cta {
+  padding: 3rem 0;
+}
+
+.about-cta-card {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, var(--primary) 0%, #4F46E5 100%);
+  border-radius: var(--radius-2xl);
+  color: white;
+}
+
+.about-cta-card h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+}
+
+.about-cta-card p {
+  font-size: 1.0625rem;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+}
+
+.about-cta-card .btn {
+  background: white;
+  color: var(--primary);
+}
+
+.about-cta-card .btn:hover {
+  background: var(--gray-100);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 1.875rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .how-steps {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-cta-card {
+    padding: 3rem 1.5rem;
+  }
+}
