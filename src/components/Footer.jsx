@@ -48,11 +48,11 @@ export default function Footer() {
               </li>
               <li>
                 <Phone size={16} />
-                <span>(555) 123-4567</span>
+                <span>(480) 696-9274</span>
               </li>
               <li>
                 <MapPin size={16} />
-                <span>Austin, TX</span>
+                <span>Phoenix, AZ</span>
               </li>
             </ul>
           </div>

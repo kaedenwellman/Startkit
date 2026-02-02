@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, Package, Truck, DollarSign, Star, ChevronRight } from 'lucide-react';
+import { ArrowRight, Package, Truck, DollarSign, ChevronRight } from 'lucide-react';
 import { kits } from '../data/kits';
 import KitCard from '../components/KitCard';
 import './Home.css';
@@ -22,29 +22,6 @@ const steps = [
   }
 ];
 
-const testimonials = [
-  {
-    name: 'Jake M.',
-    age: 16,
-    business: 'Window Cleaning',
-    text: 'I was nervous about starting a business, but StartKit made it so easy. I made $400 in my first month just cleaning windows on my street!',
-    rating: 5
-  },
-  {
-    name: 'Zoe M.',
-    age: 14,
-    business: 'Pet Waste Removal',
-    text: 'I have 20 weekly customers and make $300/week! My friends think it\'s gross but they\'re jealous of my savings account.',
-    rating: 5
-  },
-  {
-    name: 'Brandon H.',
-    age: 17,
-    business: 'Pavement Cleaning',
-    text: 'The before/after photos sell themselves. I posted on Instagram and had 10 customers within a week. Made $1,200 my first month!',
-    rating: 5
-  }
-];
 
 export default function Home() {
   return (
@@ -69,20 +46,6 @@ export default function Home() {
               <Link to="/about" className="btn btn-outline btn-lg">
                 How It Works
               </Link>
-            </div>
-            <div className="hero-stats">
-              <div className="hero-stat">
-                <strong>6</strong>
-                <span>Business Kits</span>
-              </div>
-              <div className="hero-stat">
-                <strong>$49</strong>
-                <span>Starting From</span>
-              </div>
-              <div className="hero-stat">
-                <strong>1000+</strong>
-                <span>Teen Entrepreneurs</span>
-              </div>
             </div>
           </div>
           <div className="hero-visual animate-fade-in">
@@ -135,44 +98,13 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="testimonials">
-        <div className="container">
-          <div className="section-header">
-            <h2>Real Teens, Real Results</h2>
-            <p>Hear from entrepreneurs who started with a StartKit</p>
-          </div>
-          <div className="testimonials-grid">
-            {testimonials.map((t, i) => (
-              <div key={i} className="testimonial-card">
-                <div className="testimonial-stars">
-                  {Array.from({ length: t.rating }).map((_, j) => (
-                    <Star key={j} size={16} fill="var(--warning)" color="var(--warning)" />
-                  ))}
-                </div>
-                <p className="testimonial-text">"{t.text}"</p>
-                <div className="testimonial-author">
-                  <div className="testimonial-avatar">
-                    {t.name.charAt(0)}
-                  </div>
-                  <div>
-                    <strong>{t.name}</strong>, age {t.age}
-                    <span className="testimonial-business">{t.business}</span>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="cta-section">
         <div className="container">
           <div className="cta-card">
             <h2>Ready to Be Your Own Boss?</h2>
             <p>
-              Join thousands of teen entrepreneurs who are earning their own money,
+              Take the first step toward earning your own money,
               building real skills, and gaining financial independence.
             </p>
             <a href="#kits" className="btn btn-primary btn-lg">

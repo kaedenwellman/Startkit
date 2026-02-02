@@ -5,7 +5,7 @@ export const kits = [
     slug: 'window-cleaning',
     tagline: 'Crystal clear windows, crystal clear profits',
     description: 'Everything you need to start a professional window cleaning business. From residential homes to small businesses, window cleaning is one of the most in-demand services with low startup costs and high profit margins.',
-    image: 'https://images.unsplash.com/photo-1596263373883-35601c58ce3d?w=600&h=400&fit=crop',
+    image: 'https://images.unsplash.com/photo-1527515637462-cff94eebd21f?w=600&h=400&fit=crop',
     icon: '🪟',
     color: '#3B82F6',
     businessOverview: 'Window cleaning is a fantastic first business for teens. Most homeowners want their windows cleaned 2-4 times per year, and businesses need weekly or bi-weekly cleaning. You can start with residential customers in your neighborhood and grow from there.',
@@ -60,11 +60,6 @@ export const kits = [
       { q: 'What if it rains?', a: 'Rain actually helps your business! Windows get dirty faster after rain, and you can clean windows in light rain. Just reschedule during heavy storms.' },
       { q: 'Do I need insurance?', a: 'We recommend discussing liability insurance with your parents. Many homeowner policies cover minor incidents, but a basic liability policy is affordable and professional.' }
     ],
-    reviews: [
-      { name: 'Jake M.', age: 16, rating: 5, text: 'Made $400 in my first month just doing houses on my street! The squeegee is really high quality.', tier: 'Pro' },
-      { name: 'Sarah K.', age: 15, rating: 5, text: 'My parents helped me get started and now I have 12 regular customers. Best investment ever!', tier: 'Pro' },
-      { name: 'Marcus T.', age: 17, rating: 4, text: 'Great starter kit. Upgraded to Premium after 2 months because business was booming.', tier: 'Basic' }
-    ]
   },
   {
     id: 'car-detailing',
@@ -131,11 +126,6 @@ export const kits = [
       { q: 'How long does a full detail take?', a: 'A basic wash takes about 45 minutes, a full exterior detail about 1.5 hours, and a complete interior + exterior detail about 2-3 hours.' },
       { q: 'What about a vacuum?', a: 'We recommend using a household vacuum or shop vac for interior work. A dedicated car vacuum is a great upgrade once your business grows.' }
     ],
-    reviews: [
-      { name: 'Chris L.', age: 17, rating: 5, text: 'I made $600 last month detailing cars on weekends. The Pro kit has everything you need.', tier: 'Pro' },
-      { name: 'Emma R.', age: 16, rating: 5, text: 'Started with Basic and upgraded to Premium. The buffer makes a huge difference in quality!', tier: 'Premium' },
-      { name: 'Dylan P.', age: 15, rating: 4, text: 'Great quality products. My dad helped me get started and now I have repeat customers every month.', tier: 'Pro' }
-    ]
   },
   {
     id: 'trash-can-cleaning',
@@ -198,11 +188,6 @@ export const kits = [
       { q: 'How do I find customers?', a: 'Go door-to-door on trash pickup day when people can smell their cans. Offer a free demo clean - once they see the difference, they\'ll sign up!' },
       { q: 'What about the wastewater?', a: 'Use the tarp to contain runoff and use eco-friendly disinfectant. Check your local regulations about wastewater - most residential cleaning is fine.' }
     ],
-    reviews: [
-      { name: 'Tyler J.', age: 14, rating: 5, text: 'I clean 30 cans every other week and make $450/month! Nobody else in my neighborhood does this.', tier: 'Pro' },
-      { name: 'Ava S.', age: 16, rating: 5, text: 'Started with Basic to test the idea, upgraded to Pro in 3 weeks. So worth it!', tier: 'Pro' },
-      { name: 'Noah B.', age: 15, rating: 4, text: 'The pressure washer makes this so easy. Each can takes about 5 minutes. Great recurring income!', tier: 'Pro' }
-    ]
   },
   {
     id: 'pavement-cleaning',
@@ -210,7 +195,7 @@ export const kits = [
     slug: 'pavement-cleaning',
     tagline: 'Transform driveways from grimy to gorgeous',
     description: 'Pressure washing driveways, sidewalks, and patios is a high-demand, high-paying service. The dramatic before/after results sell themselves, and homeowners will pay premium prices for this transformation.',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop',
+    image: 'https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600&h=400&fit=crop',
     icon: '🏠',
     color: '#8B5CF6',
     businessOverview: 'Pavement cleaning delivers the most dramatic results of any service business. A dirty driveway can be completely transformed in a few hours, and the before/after photos are your best marketing tool. Homeowners and HOAs pay great money for this service.',
@@ -265,11 +250,6 @@ export const kits = [
       { q: 'How do I price my services?', a: 'Most teens charge $0.10-$0.20 per square foot. A typical 2-car driveway (400 sq ft) earns $80-$150. Upsell sidewalks, patios, and fences!' },
       { q: 'Do I need a gas pressure washer?', a: 'The Basic kit uses attachments with any pressure washer. The Pro and Premium kits include gas-powered units that deliver professional results.' }
     ],
-    reviews: [
-      { name: 'Brandon H.', age: 17, rating: 5, text: 'Made $1,200 in my first month! The before/after photos on Instagram got me tons of customers.', tier: 'Pro' },
-      { name: 'Olivia G.', age: 16, rating: 5, text: 'The surface cleaner attachment is a game-changer. Makes everything so even and professional.', tier: 'Premium' },
-      { name: 'Josh W.', age: 15, rating: 4, text: 'Started with Basic using my dad\'s pressure washer. Already saving up for the Pro kit upgrade!', tier: 'Basic' }
-    ]
   },
   {
     id: 'gutter-cleaning',
@@ -332,11 +312,6 @@ export const kits = [
       { q: 'When is the best time for this business?', a: 'Peak seasons are fall (October-December) and spring (March-May). But gutters need attention year-round, especially after storms.' },
       { q: 'How do I price gutter cleaning?', a: 'Most teens charge $75-$150 for a standard single-story home and $150-$250 for two-story homes. Price by linear foot for larger properties.' }
     ],
-    reviews: [
-      { name: 'Alex R.', age: 17, rating: 5, text: 'Made $2,000 in October alone! Fall is absolutely insane for gutter cleaning demand.', tier: 'Pro' },
-      { name: 'Maya L.', age: 16, rating: 5, text: 'The safety harness gave my parents peace of mind. I feel very secure working on ladders now.', tier: 'Pro' },
-      { name: 'Ethan C.', age: 15, rating: 4, text: 'Started with Basic and my dad\'s ladder. Great way to earn money on fall weekends.', tier: 'Basic' }
-    ]
   },
   {
     id: 'pet-waste-removal',
@@ -399,11 +374,6 @@ export const kits = [
       { q: 'What do I do with the waste?', a: 'Double-bag it and place it in the customer\'s outdoor trash can. Some areas have specific disposal rules - check your local regulations.' },
       { q: 'How many customers can I handle?', a: 'Most teens handle 15-25 weekly customers. Each yard takes 10-20 minutes. You can do an entire route after school or on weekends.' }
     ],
-    reviews: [
-      { name: 'Zoe M.', age: 14, rating: 5, text: 'I have 20 weekly customers and make $300/week! This is the easiest money I\'ve ever made.', tier: 'Pro' },
-      { name: 'Ryan D.', age: 15, rating: 5, text: 'My friends think it\'s gross but they\'re jealous of my income. The scooper makes it super easy.', tier: 'Pro' },
-      { name: 'Lily T.', age: 13, rating: 4, text: 'Great first business! My mom helped me set up and now I have 8 regular customers in our neighborhood.', tier: 'Basic' }
-    ]
   }
 ];
 

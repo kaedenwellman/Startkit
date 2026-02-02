@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Target, Heart, Lightbulb, Shield, ArrowRight, Users, TrendingUp, Award } from 'lucide-react';
+import { Target, Heart, Lightbulb, Shield, ArrowRight } from 'lucide-react';
 import './About.css';
 
 const values = [
@@ -25,11 +25,6 @@ const values = [
   }
 ];
 
-const stats = [
-  { number: '1,000+', label: 'Teen Entrepreneurs', icon: <Users size={24} /> },
-  { number: '6', label: 'Business Kits', icon: <Award size={24} /> },
-  { number: '$2M+', label: 'Earned by Our Teens', icon: <TrendingUp size={24} /> }
-];
 
 export default function About() {
   return (
@@ -42,21 +37,6 @@ export default function About() {
             StartKit was founded with a simple belief: teenagers don't need to wait until
             they're adults to start building real businesses and earning real money.
           </p>
-        </div>
-      </section>
-
-      {/* Stats */}
-      <section className="about-stats">
-        <div className="container">
-          <div className="stats-grid">
-            {stats.map((stat, i) => (
-              <div key={i} className="stat-card">
-                <div className="stat-icon">{stat.icon}</div>
-                <div className="stat-number">{stat.number}</div>
-                <div className="stat-label">{stat.label}</div>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 

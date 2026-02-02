@@ -170,19 +170,19 @@ export default function Contact() {
                     <Phone size={18} />
                     <div>
                       <strong>Phone</strong>
-                      <span>(555) 123-4567</span>
+                      <span>(480) 696-9274</span>
                     </div>
                   </div>
                   <div className="contact-info-item">
                     <MapPin size={18} />
                     <div>
                       <strong>Location</strong>
-                      <span>Austin, TX</span>
+                      <span>Phoenix, AZ</span>
                     </div>
                   </div>
                 </div>
                 <p className="contact-hours">
-                  Support hours: Mon-Fri, 9am-5pm CT
+                  Support hours: Mon-Fri, 9am-5pm MST
                 </p>
               </div>
 

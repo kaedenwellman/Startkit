@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import {
-  Star, Check, ShoppingCart, ArrowLeft, ChevronDown, ChevronUp,
+  Check, ShoppingCart, ArrowLeft, ChevronDown, ChevronUp,
   DollarSign, Clock, TrendingUp, Package
 } from 'lucide-react';
 import { getKitBySlug } from '../data/kits';
@@ -211,32 +211,6 @@ export default function KitDetail() {
             <p className="calc-disclaimer">
               * Estimates based on average job pricing. Actual earnings depend on your market, pricing, and effort.
             </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Reviews */}
-      <section className="kit-section">
-        <div className="container">
-          <h2 className="kit-section-title">Customer Reviews</h2>
-          <div className="reviews-grid">
-            {kit.reviews.map((review, i) => (
-              <div key={i} className="review-card">
-                <div className="review-stars">
-                  {Array.from({ length: review.rating }).map((_, j) => (
-                    <Star key={j} size={16} fill="var(--warning)" color="var(--warning)" />
-                  ))}
-                </div>
-                <p className="review-text">"{review.text}"</p>
-                <div className="review-author">
-                  <div className="review-avatar">{review.name.charAt(0)}</div>
-                  <div>
-                    <strong>{review.name}</strong>, age {review.age}
-                    <span className="review-tier">{review.tier} Kit</span>
-                  </div>
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </section>
